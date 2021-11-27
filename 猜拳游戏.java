@@ -13,7 +13,7 @@ class test
             int person=sc.nextInt(); //ユーザ側
             System.out.println("入力した値："+ person);
             int computer=(int)(Math.random()*3)+1; //コンピューター側
-            System.out.println("入力した値："+ computer);
+            System.out.println("生成されたパソコンの値："+ computer);
             String per="ユーザ";
             String com = "コンピューター";
             //それぞれ定義するperson = 1,2,3の場合それぞれチョキ，グウ，パアに対応する
